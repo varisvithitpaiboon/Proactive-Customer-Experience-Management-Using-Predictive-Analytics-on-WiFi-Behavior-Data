@@ -78,7 +78,7 @@ This project applies predictive analytics and machine learning to proactively ma
 - Abnormal network behavior alone is not a strong predictor of customer calls.
 
 **DBSCAN Clustering Analysis**
-- 7 distinct caller behavior patterns identified, offering insights for targeted maintenance.
+- 8 distinct caller behavior patterns identified, offering insights for targeted maintenance.
 
 ---
 
