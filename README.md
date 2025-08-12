@@ -80,21 +80,6 @@ This project applies predictive analytics and machine learning to proactively ma
 
 ---
 
-## Installation
-
-Clone this repository:
-```bash
-git clone https://github.com/varisvithitpaiboon/Proactive-Customer-Experience-Management-Using-Predictive-Analytics-on-WiFi-Behavior-Data.git
-cd Proactive-Customer-Experience-Management-Using-Predictive-Analytics-on-WiFi-Behavior-Data
-
-
-Install dependencies (example for Python):
-```bash
-pip install -r requirements.txt
-```
-
----
-
 ## Usage
 
 Open the desired Colab notebook from the links above and run the cells in order.
