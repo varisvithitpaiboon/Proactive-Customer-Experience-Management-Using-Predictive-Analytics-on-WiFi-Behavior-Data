@@ -6,7 +6,7 @@ This project applies predictive analytics and machine learning to proactively ma
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 **Goal:** Enable ISPs to take proactive actions by predicting future faults and anticipating customer calls, reducing churn, improving service quality, and optimizing operational resources.
 
@@ -17,7 +17,7 @@ This project applies predictive analytics and machine learning to proactively ma
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 - **Notebooks**
   - [Predicting WiFi Connectivity Issues](https://colab.research.google.com/drive/1U8C83hP4goEIJdYdnpwQ7ant9txX7mW_?usp=sharing)
@@ -31,7 +31,7 @@ This project applies predictive analytics and machine learning to proactively ma
 
 ---
 
-## 🛠 Methodology
+## Methodology
 
 ### 1. Data Preparation
 - **Data Sources**: 30 days of network behavior metrics & customer call logs.
@@ -60,7 +60,7 @@ This project applies predictive analytics and machine learning to proactively ma
 
 ---
 
-## 📊 Key Results
+## Key Results
 
 **Connectivity Issues Prediction (Best Model: XGBoost)**
 | Metric   | Score  |
@@ -75,12 +75,12 @@ This project applies predictive analytics and machine learning to proactively ma
 - Semi-supervised & unsupervised methods performed poorly due to extreme class imbalance (0.07% positive).
 - Abnormal network behavior alone is not a strong predictor of customer calls.
 
-**Clustering**
+**DBSCAN Clustering Analysis**
 - 7 distinct caller behavior patterns identified, offering insights for targeted maintenance.
 
 ---
 
-## 🚀 Installation
+## Installation
 
 Clone this repository:
 ```bash
@@ -95,25 +95,13 @@ pip install -r requirements.txt
 
 ---
 
-## ▶️ Usage
+## Usage
 
 Open the desired Colab notebook from the links above and run the cells in order.
 
 ---
 
-## 📚 Tech Stack
+## Tech Stack
 - **Languages**: Python
 - **Libraries**: Pandas, NumPy, Scikit-learn, XGBoost, LightGBM, CatBoost, TSFRESH, SHAP, Optuna, Matplotlib, Seaborn.
 - **ML Techniques**: Supervised learning, semi-supervised learning, anomaly detection, clustering.
-
----
-
-## 📜 License
-This project is licensed under the MIT License.
-
----
-
-## 📧 Contact
-**Author**: Varis Vithitpaiboon  
-**LinkedIn**: [Your LinkedIn]  
-**Email**: [Your Email]  
