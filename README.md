@@ -1,4 +1,4 @@
-# Lifemote – Predictive Analytics on WiFi Data
+# UCL x Lifemote – Predictive Analytics on WiFi Data
 
 This project applies predictive analytics and machine learning to proactively manage customer experience and reduce operational costs for Internet Service Providers (ISPs). Developed in collaboration with **Lifemote**, a Turkish SaaS company specializing in broadband network analytics, the work focuses on two key objectives:
 1. **Predict broadband connectivity issues** within the next 7 days using 14 days of historical network data. (Succeeded)
