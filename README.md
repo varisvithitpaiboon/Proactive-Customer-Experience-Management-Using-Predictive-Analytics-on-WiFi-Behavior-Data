@@ -36,13 +36,14 @@ This project applies predictive analytics and machine learning to proactively ma
 ### 1. Data Preparation
 - **Data Sources**: 30 days of network behavior metrics & customer call logs.
 - **Preprocessing**:
-  - Remove low-variance and high-missing-rate features.
-  - Merge network and call datasets.
-  - Create target label `flag_fault`(connectivity issue) from wifi_qoe_status. If wifi_qoe_status is 'poor' = connectivity issue
-  - Create target label `flag_call` (customer call).
+  - Remove low-variance and high-missing-rate features (> 50% missing rate).  
+  - Merge network and call datasets on device_id (network data), resource_id (call data), and analysis_date
+  - Create the target label flag_fault (connectivity issue) from wifi_qoe_status. If wifi_qoe_status is 'poor', label it as a connectivity issue (1); otherwise, label it as      no connectivity issue (0).
+  - Create the target label flag_call (customer call). If any resource_id matches a device_id in the network data, label it as a caller (1); otherwise, label it as a non-        caller (0).
 
 ### 2. Feature Engineering
 - **TSFRESH** for time-series feature extraction.
+- **Rolling Windows** Fault prediction (features 14 days, label 7 days), Call Prediction (features 3 days, label 1 day)
 - Manual features for call prediction (lag, delta, ratios).
 - Multicollinearity check via Variance Inflation Factor (VIF).
 
