@@ -38,7 +38,8 @@ This project applies predictive analytics and machine learning to proactively ma
 - **Preprocessing**:
   - Remove low-variance and high-missing-rate features.
   - Merge network and call datasets.
-  - Create target labels `flag_fault` (connectivity issue) and `flag_call` (customer call).
+  - Create target label `flag_fault`(connectivity issue) from wifi_qoe_status. If wifi_qoe_status is 'poor' = connectivity issue
+  - Create target label `flag_call` (customer call).
 
 ### 2. Feature Engineering
 - **TSFRESH** for time-series feature extraction.
