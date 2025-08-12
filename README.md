@@ -45,7 +45,7 @@ This project applies predictive analytics and machine learning to proactively ma
 - **TSFRESH** for time-series feature extraction.
 - **Rolling Windows** Fault prediction (features 14 days, label 7 days), Call Prediction (features 3 days, label 1 day)
 - Manual features for call prediction (lag, delta, ratios).
-- Multicollinearity check via Variance Inflation Factor (VIF).
+- Multicollinearity check via Variance Inflation Factor (VIF). (> 10 were dropped)
 
 ### 3. Modeling
 #### **Connectivity Issues Prediction**
