@@ -1,8 +1,8 @@
 # Lifemote – Predictive Analytics on WiFi Data
 
 This project applies predictive analytics and machine learning to proactively manage customer experience and reduce operational costs for Internet Service Providers (ISPs). Developed in collaboration with **Lifemote**, a Turkish SaaS company specializing in broadband network analytics, the work focuses on two key objectives:
-1. **Predict broadband connectivity issues** within the next 7 days using 14 days of historical network data.
-2. **Identify customers likely to contact customer service** based on 3 days of recent network behavior.
+1. **Predict broadband connectivity issues** within the next 7 days using 14 days of historical network data. (Succeeded)
+2. **Identify customers likely to contact customer service** based on 3 days of recent network behavior. (Failed)
 
 ---
 
@@ -84,9 +84,9 @@ This project applies predictive analytics and machine learning to proactively ma
 
 Clone this repository:
 ```bash
-git clone https://github.com/<your-username>/<your-repo>.git
-cd <your-repo>
-```
+git clone https://github.com/varisvithitpaiboon/Proactive-Customer-Experience-Management-Using-Predictive-Analytics-on-WiFi-Behavior-Data.git
+cd Proactive-Customer-Experience-Management-Using-Predictive-Analytics-on-WiFi-Behavior-Data
+
 
 Install dependencies (example for Python):
 ```bash
