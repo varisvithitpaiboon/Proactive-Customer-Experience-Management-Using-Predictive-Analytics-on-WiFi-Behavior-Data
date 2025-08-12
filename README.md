@@ -25,9 +25,7 @@ This project applies predictive analytics and machine learning to proactively ma
   - [Predicting Customer Calls using IsolationForest + Classification (Semi-supervised)](https://colab.research.google.com/drive/1sBOgsxIEa6uQw9_Spo0IWgp-in4ZkIKS?usp=sharing)
   - [Cluster Analysis of Customer Calls](https://colab.research.google.com/drive/1yXpHQf76k3E5xdmFsaCdYjwV9AvldTo2?usp=sharing)
 
-- **Data**: Network and call log datasets (not included in repo due to confidentiality).
-
-- **Report**: Full dissertation report included as `MSIN0114_Dissertation_KWTZ3.pdf`.
+- **Data**: Network and call log datasets (not included in repository due to confidentiality).
 
 ---
 
