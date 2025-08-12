@@ -80,12 +80,6 @@ This project applies predictive analytics and machine learning to proactively ma
 
 ---
 
-## Usage
-
-Open the desired Colab notebook from the links above and run the cells in order.
-
----
-
 ## Tech Stack
 - **Languages**: Python
 - **Libraries**: Pandas, NumPy, Scikit-learn, XGBoost, LightGBM, CatBoost, TSFRESH, SHAP, Optuna, Matplotlib, Seaborn.
